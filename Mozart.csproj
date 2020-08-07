@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F670D938-DA11-4333-9C09-8CEB7415A919}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Mozart</RootNamespace>
+    <AssemblyName>Mozart</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WaveFiles\M1.wav" />
+    <Content Include="WaveFiles\M10.wav" />
+    <Content Include="WaveFiles\M100.wav" />
+    <Content Include="WaveFiles\M101.wav" />
+    <Content Include="WaveFiles\M102.wav" />
+    <Content Include="WaveFiles\M103.wav" />
+    <Content Include="WaveFiles\M104.wav" />
+    <Content Include="WaveFiles\M105.wav" />
+    <Content Include="WaveFiles\M106.wav" />
+    <Content Include="WaveFiles\M107.wav" />
+    <Content Include="WaveFiles\M108.wav" />
+    <Content Include="WaveFiles\M109.wav" />
+    <Content Include="WaveFiles\M11.wav" />
+    <Content Include="WaveFiles\M110.wav" />
+    <Content Include="WaveFiles\M111.wav" />
+    <Content Include="WaveFiles\M112.wav" />
+    <Content Include="WaveFiles\M113.wav" />
+    <Content Include="WaveFiles\M114.wav" />
+    <Content Include="WaveFiles\M115.wav" />
+    <Content Include="WaveFiles\M116.wav" />
+    <Content Include="WaveFiles\M117.wav" />
+    <Content Include="WaveFiles\M118.wav" />
+    <Content Include="WaveFiles\M119.wav" />
+    <Content Include="WaveFiles\M12.wav" />
+    <Content Include="WaveFiles\M120.wav" />
+    <Content Include="WaveFiles\M121.wav" />
+    <Content Include="WaveFiles\M122.wav" />
+    <Content Include="WaveFiles\M123.wav" />
+    <Content Include="WaveFiles\M124.wav" />
+    <Content Include="WaveFiles\M125.wav" />
+    <Content Include="WaveFiles\M126.wav" />
+    <Content Include="WaveFiles\M127.wav" />
+    <Content Include="WaveFiles\M128.wav" />
+    <Content Include="WaveFiles\M129.wav" />
+    <Content Include="WaveFiles\M13.wav" />
+    <Content Include="WaveFiles\M130.wav" />
+    <Content Include="WaveFiles\M131.wav" />
+    <Content Include="WaveFiles\M132.wav" />
+    <Content Include="WaveFiles\M133.wav" />
+    <Content Include="WaveFiles\M134.wav" />
+    <Content Include="WaveFiles\M135.wav" />
+    <Content Include="WaveFiles\M136.wav" />
+    <Content Include="WaveFiles\M137.wav" />
+    <Content Include="WaveFiles\M138.wav" />
+    <Content Include="WaveFiles\M139.wav" />
+    <Content Include="WaveFiles\M14.wav" />
+    <Content Include="WaveFiles\M140.wav" />
+    <Content Include="WaveFiles\M141.wav" />
+    <Content Include="WaveFiles\M142.wav" />
+    <Content Include="WaveFiles\M143.wav" />
+    <Content Include="WaveFiles\M144.wav" />
+    <Content Include="WaveFiles\M145.wav" />
+    <Content Include="WaveFiles\M146.wav" />
+    <Content Include="WaveFiles\M147.wav" />
+    <Content Include="WaveFiles\M148.wav" />
+    <Content Include="WaveFiles\M149.wav" />
+    <Content Include="WaveFiles\M15.wav" />
+    <Content Include="WaveFiles\M150.wav" />
+    <Content Include="WaveFiles\M151.wav" />
+    <Content Include="WaveFiles\M152.wav" />
+    <Content Include="WaveFiles\M153.wav" />
+    <Content Include="WaveFiles\M154.wav" />
+    <Content Include="WaveFiles\M155.wav" />
+    <Content Include="WaveFiles\M156.wav" />
+    <Content Include="WaveFiles\M157.wav" />
+    <Content Include="WaveFiles\M158.wav" />
+    <Content Include="WaveFiles\M159.wav" />
+    <Content Include="WaveFiles\M16.wav" />
+    <Content Include="WaveFiles\M160.wav" />
+    <Content Include="WaveFiles\M161.wav" />
+    <Content Include="WaveFiles\M162.wav" />
+    <Content Include="WaveFiles\M163.wav" />
+    <Content Include="WaveFiles\M164.wav" />
+    <Content Include="WaveFiles\M165.wav" />
+    <Content Include="WaveFiles\M166.wav" />
+    <Content Include="WaveFiles\M167.wav" />
+    <Content Include="WaveFiles\M168.wav" />
+    <Content Include="WaveFiles\M169.wav" />
+    <Content Include="WaveFiles\M17.wav" />
+    <Content Include="WaveFiles\M170.wav" />
+    <Content Include="WaveFiles\M171.wav" />
+    <Content Include="WaveFiles\M172.wav" />
+    <Content Include="WaveFiles\M173.wav" />
+    <Content Include="WaveFiles\M174.wav" />
+    <Content Include="WaveFiles\M175.wav" />
+    <Content Include="WaveFiles\M176.wav" />
+    <Content Include="WaveFiles\M18.wav" />
+    <Content Include="WaveFiles\M19.wav" />
+    <Content Include="WaveFiles\M2.wav" />
+    <Content Include="WaveFiles\M20.wav" />
+    <Content Include="WaveFiles\M21.wav" />
+    <Content Include="WaveFiles\M22.wav" />
+    <Content Include="WaveFiles\M23.wav" />
+    <Content Include="WaveFiles\M24.wav" />
+    <Content Include="WaveFiles\M25.wav" />
+    <Content Include="WaveFiles\M26.wav" />
+    <Content Include="WaveFiles\M27.wav" />
+    <Content Include="WaveFiles\M28.wav" />
+    <Content Include="WaveFiles\M29.wav" />
+    <Content Include="WaveFiles\M3.wav" />
+    <Content Include="WaveFiles\M30.wav" />
+    <Content Include="WaveFiles\M31.wav" />
+    <Content Include="WaveFiles\M32.wav" />
+    <Content Include="WaveFiles\M33.wav" />
+    <Content Include="WaveFiles\M34.wav" />
+    <Content Include="WaveFiles\M35.wav" />
+    <Content Include="WaveFiles\M36.wav" />
+    <Content Include="WaveFiles\M37.wav" />
+    <Content Include="WaveFiles\M38.wav" />
+    <Content Include="WaveFiles\M39.wav" />
+    <Content Include="WaveFiles\M4.wav" />
+    <Content Include="WaveFiles\M40.wav" />
+    <Content Include="WaveFiles\M41.wav" />
+    <Content Include="WaveFiles\M42.wav" />
+    <Content Include="WaveFiles\M43.wav" />
+    <Content Include="WaveFiles\M44.wav" />
+    <Content Include="WaveFiles\M45.wav" />
+    <Content Include="WaveFiles\M46.wav" />
+    <Content Include="WaveFiles\M47.wav" />
+    <Content Include="WaveFiles\M48.wav" />
+    <Content Include="WaveFiles\M49.wav" />
+    <Content Include="WaveFiles\M5.wav" />
+    <Content Include="WaveFiles\M50.wav" />
+    <Content Include="WaveFiles\M51.wav" />
+    <Content Include="WaveFiles\M52.wav" />
+    <Content Include="WaveFiles\M53.wav" />
+    <Content Include="WaveFiles\M54.wav" />
+    <Content Include="WaveFiles\M55.wav" />
+    <Content Include="WaveFiles\M56.wav" />
+    <Content Include="WaveFiles\M57.wav" />
+    <Content Include="WaveFiles\M58.wav" />
+    <Content Include="WaveFiles\M59.wav" />
+    <Content Include="WaveFiles\M6.wav" />
+    <Content Include="WaveFiles\M60.wav" />
+    <Content Include="WaveFiles\M61.wav" />
+    <Content Include="WaveFiles\M62.wav" />
+    <Content Include="WaveFiles\M63.wav" />
+    <Content Include="WaveFiles\M64.wav" />
+    <Content Include="WaveFiles\M65.wav" />
+    <Content Include="WaveFiles\M66.wav" />
+    <Content Include="WaveFiles\M67.wav" />
+    <Content Include="WaveFiles\M68.wav" />
+    <Content Include="WaveFiles\M69.wav" />
+    <Content Include="WaveFiles\M7.wav" />
+    <Content Include="WaveFiles\M70.wav" />
+    <Content Include="WaveFiles\M71.wav" />
+    <Content Include="WaveFiles\M72.wav" />
+    <Content Include="WaveFiles\M73.wav" />
+    <Content Include="WaveFiles\M74.wav" />
+    <Content Include="WaveFiles\M75.wav" />
+    <Content Include="WaveFiles\M76.wav" />
+    <Content Include="WaveFiles\M77.wav" />
+    <Content Include="WaveFiles\M78.wav" />
+    <Content Include="WaveFiles\M79.wav" />
+    <Content Include="WaveFiles\M8.wav" />
+    <Content Include="WaveFiles\M80.wav" />
+    <Content Include="WaveFiles\M81.wav" />
+    <Content Include="WaveFiles\M82.wav" />
+    <Content Include="WaveFiles\M83.wav" />
+    <Content Include="WaveFiles\M84.wav" />
+    <Content Include="WaveFiles\M85.wav" />
+    <Content Include="WaveFiles\M86.wav" />
+    <Content Include="WaveFiles\M87.wav" />
+    <Content Include="WaveFiles\M88.wav" />
+    <Content Include="WaveFiles\M89.wav" />
+    <Content Include="WaveFiles\M9.wav" />
+    <Content Include="WaveFiles\M90.wav" />
+    <Content Include="WaveFiles\M91.wav" />
+    <Content Include="WaveFiles\M92.wav" />
+    <Content Include="WaveFiles\M93.wav" />
+    <Content Include="WaveFiles\M94.wav" />
+    <Content Include="WaveFiles\M95.wav" />
+    <Content Include="WaveFiles\M96.wav" />
+    <Content Include="WaveFiles\M97.wav" />
+    <Content Include="WaveFiles\M98.wav" />
+    <Content Include="WaveFiles\M99.wav" />
+    <Content Include="WaveFiles\T1.wav" />
+    <Content Include="WaveFiles\T10.wav" />
+    <Content Include="WaveFiles\T11.wav" />
+    <Content Include="WaveFiles\T12.wav" />
+    <Content Include="WaveFiles\T13.wav" />
+    <Content Include="WaveFiles\T14.wav" />
+    <Content Include="WaveFiles\T15.wav" />
+    <Content Include="WaveFiles\T16.wav" />
+    <Content Include="WaveFiles\T17.wav" />
+    <Content Include="WaveFiles\T18.wav" />
+    <Content Include="WaveFiles\T19.wav" />
+    <Content Include="WaveFiles\T2.wav" />
+    <Content Include="WaveFiles\T20.wav" />
+    <Content Include="WaveFiles\T21.wav" />
+    <Content Include="WaveFiles\T22.wav" />
+    <Content Include="WaveFiles\T23.wav" />
+    <Content Include="WaveFiles\T24.wav" />
+    <Content Include="WaveFiles\T25.wav" />
+    <Content Include="WaveFiles\T26.wav" />
+    <Content Include="WaveFiles\T27.wav" />
+    <Content Include="WaveFiles\T28.wav" />
+    <Content Include="WaveFiles\T29.wav" />
+    <Content Include="WaveFiles\T3.wav" />
+    <Content Include="WaveFiles\T30.wav" />
+    <Content Include="WaveFiles\T31.wav" />
+    <Content Include="WaveFiles\T32.wav" />
+    <Content Include="WaveFiles\T33.wav" />
+    <Content Include="WaveFiles\T34.wav" />
+    <Content Include="WaveFiles\T35.wav" />
+    <Content Include="WaveFiles\T36.wav" />
+    <Content Include="WaveFiles\T37.wav" />
+    <Content Include="WaveFiles\T38.wav" />
+    <Content Include="WaveFiles\T39.wav" />
+    <Content Include="WaveFiles\T4.wav" />
+    <Content Include="WaveFiles\T40.wav" />
+    <Content Include="WaveFiles\T41.wav" />
+    <Content Include="WaveFiles\T42.wav" />
+    <Content Include="WaveFiles\T43.wav" />
+    <Content Include="WaveFiles\T44.wav" />
+    <Content Include="WaveFiles\T45.wav" />
+    <Content Include="WaveFiles\T46.wav" />
+    <Content Include="WaveFiles\T47.wav" />
+    <Content Include="WaveFiles\T48.wav" />
+    <Content Include="WaveFiles\T49.wav" />
+    <Content Include="WaveFiles\T5.wav" />
+    <Content Include="WaveFiles\T50.wav" />
+    <Content Include="WaveFiles\T51.wav" />
+    <Content Include="WaveFiles\T52.wav" />
+    <Content Include="WaveFiles\T53.wav" />
+    <Content Include="WaveFiles\T54.wav" />
+    <Content Include="WaveFiles\T55.wav" />
+    <Content Include="WaveFiles\T56.wav" />
+    <Content Include="WaveFiles\T57.wav" />
+    <Content Include="WaveFiles\T58.wav" />
+    <Content Include="WaveFiles\T59.wav" />
+    <Content Include="WaveFiles\T6.wav" />
+    <Content Include="WaveFiles\T60.wav" />
+    <Content Include="WaveFiles\T61.wav" />
+    <Content Include="WaveFiles\T62.wav" />
+    <Content Include="WaveFiles\T63.wav" />
+    <Content Include="WaveFiles\T64.wav" />
+    <Content Include="WaveFiles\T65.wav" />
+    <Content Include="WaveFiles\T66.wav" />
+    <Content Include="WaveFiles\T67.wav" />
+    <Content Include="WaveFiles\T68.wav" />
+    <Content Include="WaveFiles\T69.wav" />
+    <Content Include="WaveFiles\T7.wav" />
+    <Content Include="WaveFiles\T70.wav" />
+    <Content Include="WaveFiles\T71.wav" />
+    <Content Include="WaveFiles\T72.wav" />
+    <Content Include="WaveFiles\T73.wav" />
+    <Content Include="WaveFiles\T74.wav" />
+    <Content Include="WaveFiles\T75.wav" />
+    <Content Include="WaveFiles\T76.wav" />
+    <Content Include="WaveFiles\T77.wav" />
+    <Content Include="WaveFiles\T78.wav" />
+    <Content Include="WaveFiles\T79.wav" />
+    <Content Include="WaveFiles\T8.wav" />
+    <Content Include="WaveFiles\T80.wav" />
+    <Content Include="WaveFiles\T81.wav" />
+    <Content Include="WaveFiles\T82.wav" />
+    <Content Include="WaveFiles\T83.wav" />
+    <Content Include="WaveFiles\T84.wav" />
+    <Content Include="WaveFiles\T85.wav" />
+    <Content Include="WaveFiles\T86.wav" />
+    <Content Include="WaveFiles\T87.wav" />
+    <Content Include="WaveFiles\T88.wav" />
+    <Content Include="WaveFiles\T89.wav" />
+    <Content Include="WaveFiles\T9.wav" />
+    <Content Include="WaveFiles\T90.wav" />
+    <Content Include="WaveFiles\T91.wav" />
+    <Content Include="WaveFiles\T92.wav" />
+    <Content Include="WaveFiles\T93.wav" />
+    <Content Include="WaveFiles\T94.wav" />
+    <Content Include="WaveFiles\T95.wav" />
+    <Content Include="WaveFiles\T96.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
